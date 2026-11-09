@@ -3,7 +3,7 @@ package mvc;
 import java.awt.Color;
 import java.awt.Graphics;
 
-public class Point {
+public class Point extends Shape {
 	private int x;
 	private int y;
 	private Color color;
@@ -48,6 +48,7 @@ public class Point {
 	public String toString() {
 		return "Point [x=" + x + ", y=" + y + ", color=" + color + "]";
 	}
+
 	
 	
 

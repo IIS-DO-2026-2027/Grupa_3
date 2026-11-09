@@ -10,7 +10,7 @@ public class DrawingView extends JPanel {
 	DrawingModel model = new DrawingModel();
 	
 	public void paint(Graphics g) {
-		Iterator<Point> it = model.getShapes().iterator();
+		Iterator<Shape> it = model.getShapes().iterator();
 		while(it.hasNext()) 
 			it.next().draw(g);
 	}

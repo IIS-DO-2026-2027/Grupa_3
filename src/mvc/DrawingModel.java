@@ -4,21 +4,21 @@ import java.util.ArrayList;
 
 public class DrawingModel {
 	
-	private ArrayList<Point> points = new ArrayList<Point>();
+	private ArrayList<Shape> shapes = new ArrayList<Shape>();
 
-	public void add(Point p) {
-		points.add(p);
+	public void add(Shape shape) {
+		shapes.add(shape);
 	}
 	
-	public void remove(Point p) {
-		points.remove(p);
+	public void remove(Shape shape) {
+		shapes.remove(shape);
 	}
 	
 	public void get(int index) {
-		points.get(index);
+		shapes.get(index);
 	}
 	
-	public ArrayList<Point> getShapes() {
-		return points;
+	public ArrayList<Shape> getShapes() {
+		return shapes;
 	}
 }
