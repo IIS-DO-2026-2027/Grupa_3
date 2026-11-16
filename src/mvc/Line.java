@@ -20,7 +20,8 @@ public class Line extends Shape {
 
 	@Override
 	public void draw(Graphics g) {
-		// implementacija crtanja
+		g.setColor(color);
+		g.drawLine(startPoint.getX(), startPoint.getY(), endPoint.getX(), endPoint.getY());
 		
 	}
 
